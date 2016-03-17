@@ -11,7 +11,7 @@ kxmovie extended, to get your own ui controls and get screenshots from your movi
 
 #examples
 
-*implement Delegate functions*
+1. *implement Delegate functions*
 
 - implement **KxMovieViewDelegate** in your interface
 
@@ -23,3 +23,11 @@ kxmovie extended, to get your own ui controls and get screenshots from your movi
 
         func videoDidFinish()
 
+2. If you want to set the current position
+
+        let value = CGFloat(Float(self.slider.value)*Float(self.kxMoviePlayer.decoder.duration))
+        self.kxMoviePlayer.setMoviePosition(value)
+        
+3. Get a snapshot (UIImage) of current position
+
+        self.kxMoviePlayer.glView.snapshot()
