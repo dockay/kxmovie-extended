@@ -8,3 +8,9 @@ kxmovie extended, to get your own ui controls and get screenshots from your movi
 - Drop all files to your project.
 - Add frameworks: MediaPlayer, CoreAudio, AudioToolbox, Accelerate, QuartzCore, OpenGLES and libz.dylib .
 - Add libs: libkxmovie.a, libavcodec.a, libavformat.a, libavutil.a, libswscale.a, libswresample.a
+
+#examples
+
+- implement Delegate functions
+-- func videoDidUpdateWithDuration(duration: CGFloat, andPosition position: CGFloat) 
+-- func videoDidFinish()
