@@ -1,8 +1,20 @@
-# kxmovie-extended
+kxmovie-extended
+==========================================================
 Original source: https://github.com/kolyvan/kxmovie
+
+
+FFmpegPlayer-iOS - A movie player for iOS based on FFmpeg.
 
 kxmovie extended, to get your own ui controls and get screenshots from your movie.
 
+### Build Instructions
+
+First you need to download, configure and build [FFmpeg](http://ffmpeg.org/index.html). For this, open console and type in:
+	
+	cd kxmovie
+	git submodule update --init	
+	rake
+	
 #Usage
 
 - Drop all files to your project.
