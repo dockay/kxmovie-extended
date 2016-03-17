@@ -13,10 +13,10 @@ kxmovie extended, to get your own ui controls and get screenshots from your movi
 
 *implement Delegate functions*
 
-called when video updates it duration (good callback for updating your own UI/Slider)
+- called when video updates it duration (good callback for updating your own UI/Slider)
 
-- func videoDidUpdateWithDuration(duration: CGFloat, andPosition position: CGFloat)
+    func videoDidUpdateWithDuration(duration: CGFloat, andPosition position: CGFloat)
 
-called when video is finished
+- called when video is finished
 
-- func videoDidFinish()
+    func videoDidFinish()
